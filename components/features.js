@@ -10,9 +10,13 @@ const Feature = ({ text, icon }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "Multichain interoperable nPoS network",
-  "km": "Blockchain បណ្តាញ nPoS ដែលអាចធ្វើអន្តរកម្មបានច្រើនខ្សែ",
+  "en-US": "React Hooks for Data Fetching",
+  "es-ES": "Biblioteca React Hooks para la obtención de datos",
   "zh-CN": "用于数据请求的 React Hooks 库",
+  "pt-BR": " React Hooks para Data Fetching",
+  ja: "データ取得のための React Hooks ライブラリ",
+  ko: "데이터 가져오기를 위한 React Hooks",
+  ru: "React хуки для выборки данных",
 };
 
 // Transaltions for Features
@@ -27,6 +31,7 @@ const FEATURES_WITH_TRANSLATIONS = {
     typescript: "TypeScript Ready",
     remoteLocal: "Remote + Local",
   },
+  "es-ES": {},
   "zh-CN": {
     lightweight: "Lightweight",
     realtime: "Realtime",
@@ -47,7 +52,9 @@ const FEATURES_WITH_TRANSLATIONS = {
     typescript: "Pronto para TypeScript",
     remoteLocal: "Remoto + Local",
   },
-  "ru": {
+  ja: {},
+  ko: {},
+  ru: {
     lightweight: "Лёгкий",
     realtime: "В реальном времени",
     suspense: "Задержка",
@@ -57,9 +64,6 @@ const FEATURES_WITH_TRANSLATIONS = {
     typescript: "TypeScript",
     remoteLocal: "Удалённо + Локально",
   },
-  "ja": {},
-  "ko": {},
-  "es-ES": {},
 };
 
 export default () => {

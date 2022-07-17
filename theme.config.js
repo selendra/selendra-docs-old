@@ -20,20 +20,18 @@ const Vercel = ({ height = 20 }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "Multichain interoperable nominated Proof-of-Stake Network",
-  "km": "Blockchain បណ្តាញ nPoS ដែលអាចធ្វើអន្តរកម្មបានច្រើនខ្សែ",
-  "zh-CN": "多链互操作提名 PoS 网络",
+  "en-US": "React Hooks for Data Fetching",
+  "zh-CN": "用于数据请求的 React Hooks 库",
 };
 
 const FEEDBACK_LINK_WITH_TRANSLATIONS = {
   "en-US": "Question? Give us feedback →",
-  "km": "សំណួរ? ផ្តល់ឱ្យយើងនូវមតិកែលម្អ →",
   "zh-CN": "有疑问？给我们反馈 →",
 };
 
 export default {
-  projectLink: "https://github.com/selendra/selendra",
-  docsRepositoryBase: "https://github.com/selendra/selendra-docs/blob/master/pages",
+  projectLink: "https://github.com/vercel/swr",
+  docsRepositoryBase: "https://github.com/vercel/swr-site/blob/master/pages",
   titleSuffix: " – SWR",
   search: true,
   unstable_flexsearch: true,
@@ -59,7 +57,7 @@ export default {
 
     const ogImage =
       meta.image ||
-      `https://selendra-docs.vercel.app/${
+      `https://swr-card.vercel.app${
         /\/index\.+/.test(route) ? "" : "?title=" + encodeURIComponent(title)
       }`;
 
@@ -112,11 +110,11 @@ export default {
         <meta
           name="og:title"
           content={
-            title ? title + " – Selendra" : "Selendra: Multichain interoperable nPoS network"
+            title ? title + " – SWR" : "SWR: React Hooks for Data Fetching"
           }
         />
         <meta name="og:image" content={ogImage} />
-        <meta name="apple-mobile-web-app-title" content="Selendra" />
+        <meta name="apple-mobile-web-app-title" content="SWR" />
       </>
     );
   },
@@ -124,8 +122,6 @@ export default {
     switch (locale) {
       case "zh-CN":
         return "在 GitHub 上编辑本页 →";
-      case "km":
-        return "កែសម្រួលទំព័រនេះនៅលើ GitHub →";
       default:
         return "Edit this page on GitHub →";
     }
@@ -164,7 +160,6 @@ export default {
   },
   i18n: [
     { locale: "en-US", text: "English" },
-    { locale: "km", text: "ខ្មែរ" },
     { locale: "zh-CN", text: "简体中文" },
   ],
 };
