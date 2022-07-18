@@ -38,8 +38,8 @@ module.exports = withNextra({
         statusCode: 301,
       },
       {
-        source: "/blog/swr-1",
-        destination: "/blog/swr-v1",
+        source: "/blog",
+        destination: "/blog",
         statusCode: 301,
       },
       {
@@ -48,8 +48,8 @@ module.exports = withNextra({
         statusCode: 302,
       },
       {
-        source: "/examples",
-        destination: "/examples/basic",
+        source: "/dev",
+        destination: "/dev/intro",
         statusCode: 302,
       },
     ];
