@@ -1,15 +1,19 @@
 {
   "index": {
-    "title": "Introduction",
+    "title": "Intro",
     "type": "page",
-    "hidden": true
+    "hidden": false
+  },
+  "features": {
+    "title": "Features",
+    "type": "page"
+  },
+  "DApps": {
+    "title": "DApps",
+    "type": "page"
   },
   "docs": {
     "title": "Docs",
-    "type": "page"
-  },
-  "examples": {
-    "title": "Examples",
     "type": "page"
   },
   "blog": {
