@@ -10,6 +10,8 @@ const Logo = ({ height }) => {
   );
 };
 
+// This section need to be fixed
+// When translate to Chinese the footer 
 const Vercel = ({ height = 20 }) => (
   <svg height={height} viewBox="0 0 283 64" fill="none">
     <path
@@ -152,7 +154,7 @@ export default {
               rel="noopener"
               className="no-underline text-current"
             >
-              <span className="mr-1">Made with &#x2764; Selendra</span>
+              <span className="mr-1">Made with &#x2764; @Selendra.org</span>
             </a>
           </center>
         );
