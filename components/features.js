@@ -10,7 +10,7 @@ const Feature = ({ text, icon }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "Multichain Interoperable nPoS Network",
+  "en-US": "Multichain Interoperable Nominated Proof-of-Stake System",
   "zh-CN": "多链互操作 nPoS 网络",
 };
 
