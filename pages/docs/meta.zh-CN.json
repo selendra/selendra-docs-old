@@ -1,4 +1,9 @@
 {
-  "getting-started": "入门",
-  "options": "选项"
+  "getting-started": "Getting Started",
+  "options": "Options",
+  "contribute": "Contribute",
+  "tokenomics": "Tokenomics",
+  "use-cases": "Use cases",
+  "selendra-paper": "Whitepaper",
+  "validatorfaq": "Validator FAQ"
 }

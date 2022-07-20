@@ -1,15 +1,15 @@
 {
   "index": {
-    "title": "简介",
+    "title": "欢迎",
     "type": "page",
-    "hidden": true
+    "hidden": false
   },
   "docs": {
-    "title": "文档",
+    "title": "文件",
     "type": "page"
   },
-  "examples": {
-    "title": "示例",
+  "dev": {
+    "title": "开发",
     "type": "page"
   },
   "blog": {

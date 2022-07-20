@@ -3,13 +3,15 @@ import { useRouter } from "next/router";
 const Logo = ({ height }) => {
   return (
     <img
-      src="/images/selendra-black.png"
+      src="/images/selendra-logo.svg"
       alt=""
-      style={{ height: "50px !important" }}
+      style={{ height: "40px !important" }}
     />
   );
 };
 
+// This section need to be fixed
+// When translate to Chinese the footer 
 const Vercel = ({ height = 20 }) => (
   <svg height={height} viewBox="0 0 283 64" fill="none">
     <path
@@ -20,8 +22,8 @@ const Vercel = ({ height = 20 }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "React Hooks for Data Fetching",
-  "zh-CN": "用于数据请求的 React Hooks 库",
+  "en-US": "Multichain Interoperable nPoS Network",
+  "zh-CN": "多链互操作 nPoS 网络",
 };
 
 const FEEDBACK_LINK_WITH_TRANSLATIONS = {
@@ -30,9 +32,9 @@ const FEEDBACK_LINK_WITH_TRANSLATIONS = {
 };
 
 export default {
-  projectLink: "https://github.com/vercel/swr",
-  docsRepositoryBase: "https://github.com/vercel/swr-site/blob/master/pages",
-  titleSuffix: " – SWR",
+  projectLink: "https://github.com/selendra/selendra",
+  docsRepositoryBase: "https://github.com/selendra/selendradocs/blob/master/pages",
+  titleSuffix: " – Selendra",
   search: true,
   unstable_flexsearch: true,
   floatTOC: true,
@@ -57,7 +59,7 @@ export default {
 
     const ogImage =
       meta.image ||
-      `https://swr-card.vercel.app${
+      `https://selendradocs.vercel.app${
         /\/index\.+/.test(route) ? "" : "?title=" + encodeURIComponent(title)
       }`;
 
@@ -94,14 +96,14 @@ export default {
           name="description"
           content={
             meta.description ||
-            "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+            "Selendra is a multichain interoperatable nPoS for running Blockchain Applications."
           }
         />
         <meta
           name="og:description"
           content={
             meta.description ||
-            "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+            "Selendra is a multichain interoperatable nPoS for running Blockchain Applications."
           }
         />
         <meta name="twitter:card" content="summary_large_image" />
@@ -110,7 +112,7 @@ export default {
         <meta
           name="og:title"
           content={
-            title ? title + " – SWR" : "SWR: React Hooks for Data Fetching"
+            title ? title + " – Selendra" : "Selendra: Multichain Interoperable nPoS Network"
           }
         />
         <meta name="og:image" content={ogImage} />
@@ -131,7 +133,7 @@ export default {
       case "zh-CN":
         return (
           <a
-            href="https://vercel.com/?utm_source=swr_zh-cn"
+            href="https://https://selendradocs.vercel.app/?utm_source=swr_zh-cn"
             target="_blank"
             rel="noopener"
             className="inline-flex items-center no-underline text-current font-semibold"
@@ -152,7 +154,7 @@ export default {
               rel="noopener"
               className="no-underline text-current"
             >
-              <span className="mr-1">Made with &#x2764; Selendra</span>
+              <span className="mr-1">Made with &#x2764; @Selendra.org</span>
             </a>
           </center>
         );

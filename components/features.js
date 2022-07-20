@@ -10,26 +10,21 @@ const Feature = ({ text, icon }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "React Hooks for Data Fetching",
-  "es-ES": "Biblioteca React Hooks para la obtención de datos",
-  "zh-CN": "用于数据请求的 React Hooks 库",
-  "pt-BR": " React Hooks para Data Fetching",
-  ja: "データ取得のための React Hooks ライブラリ",
-  ko: "데이터 가져오기를 위한 React Hooks",
-  ru: "React хуки для выборки данных",
+  "en-US": "Multichain Interoperable Nominated Proof-of-Stake System",
+  "zh-CN": "多链互操作 nPoS 网络",
 };
 
 // Transaltions for Features
 const FEATURES_WITH_TRANSLATIONS = {
   "en-US": {
-    lightweight: "Lightweight",
-    realtime: "Realtime",
-    suspense: "Suspense",
-    pagination: "Pagination",
-    backendAgnostic: "Backend Agnostic",
-    renderingStrategies: "SSR / SSG Ready",
-    typescript: "TypeScript Ready",
-    remoteLocal: "Remote + Local",
+      lightweight: "Composable",
+      realtime: "Fast",
+      suspense: "Unstopable",
+      pagination: "Scalable",
+      backendAgnostic: "Borderless",
+      renderingStrategies: "Multichain",
+      typescript: "Multi assets",
+      remoteLocal: "Openness",
   },
   "es-ES": {},
   "zh-CN": {
