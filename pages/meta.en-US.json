@@ -5,12 +5,13 @@
     "hidden": false
   },
   "docs": {
-    "title": "Documentation",
+    "title": "Docs",
     "type": "page"
   },
   "dev": {
     "title": "Develop",
-    "type": "page"
+    "type": "page",
+    "hidden": "true"
   },
   "blog": {
     "title": "Blog",
