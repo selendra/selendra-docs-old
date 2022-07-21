@@ -178,7 +178,7 @@ export default {
   },
   i18n: [
     { locale: "en-US", text: "English" },
-    // { locale: "km-KH", text: "ភាសាខ្មែរ" },
-    // { locale: "zh-CN", text: "简体中文" }
+    { locale: "km-KH", text: "ភាសាខ្មែរ" },
+    { locale: "zh-CN", text: "简体中文" }
   ],
 };
