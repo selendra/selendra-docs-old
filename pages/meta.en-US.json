@@ -8,11 +8,6 @@
     "title": "Docs",
     "type": "page"
   },
-  "dev": {
-    "title": "Develop",
-    "type": "page",
-    "hidden": "true"
-  },
   "blog": {
     "title": "Blog",
     "type": "page",

@@ -24,11 +24,13 @@ const Vercel = ({ height = 20 }) => (
 const TITLE_WITH_TRANSLATIONS = {
   "en-US": "Multichain Interoperable nPoS Network",
   "zh-CN": "多链互操作 nPoS 网络",
+  "km-KH": "បណ្តាញ nPoS ដែលអាចធ្វើអន្តរកម្មបានច្រើនខ្សែ",
 };
 
 const FEEDBACK_LINK_WITH_TRANSLATIONS = {
   "en-US": "Question? Give us feedback →",
   "zh-CN": "有疑问？给我们反馈 →",
+  "km-KH": "សំណួរ? ផ្តល់ឱ្យយើងនូវមតិកែលម្អ →"
 };
 
 export default {
@@ -122,6 +124,8 @@ export default {
   },
   footerEditLink: ({ locale }) => {
     switch (locale) {
+      case "km-KH":
+        return "កែសម្រួលទំព័រនេះនៅលើ GitHub →";
       case "zh-CN":
         return "在 GitHub 上编辑本页 →";
       default:
@@ -130,21 +134,33 @@ export default {
   },
   footerText: ({ locale }) => {
     switch (locale) {
+      case "km-KH":
+        return (
+          <center>
+            <a
+              href="https://www.selendra.com/"
+              target="_blank"
+              rel="noopener"
+              className="no-underline text-current"
+            >
+              <span className="mr-1">ផលិតជាមួយ &#x2764; @Selendra.org</span>
+            </a>
+          </center>
+        );
       case "zh-CN":
         return (
-          <a
-            href="https://https://selendradocs.vercel.app/?utm_source=swr_zh-cn"
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center no-underline text-current font-semibold"
-          >
-            <span className="mr-2">由</span>
-            <span className="mr-2">
-              <Vercel />
-            </span>
-            驱动
-          </a>
+          <center>
+            <a
+              href="https://www.selendra.com/"
+              target="_blank"
+              rel="noopener"
+              className="no-underline text-current"
+            >
+              <span className="mr-1">用 &#x2764; @Selendra.org</span>
+            </a>
+          </center>
         );
+
       default:
         return (
           <center>
@@ -162,6 +178,7 @@ export default {
   },
   i18n: [
     { locale: "en-US", text: "English" },
-    { locale: "zh-CN", text: "简体中文" },
+    // { locale: "km-KH", text: "ភាសាខ្មែរ" },
+    // { locale: "zh-CN", text: "简体中文" }
   ],
 };

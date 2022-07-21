@@ -11,6 +11,7 @@ const Feature = ({ text, icon }) => (
 
 const TITLE_WITH_TRANSLATIONS = {
   "en-US": "Multichain Interoperable Nominated Proof-of-Stake System",
+  "km-KH": "ប្រព័ន្ធបណ្តាញ Nominated PoS Blockchain ដែលអាចអន្តរប្រតិបត្តិការបានច្រើនខ្សែ",
   "zh-CN": "多链互操作 nPoS 网络",
 };
 
@@ -26,6 +27,16 @@ const FEATURES_WITH_TRANSLATIONS = {
       typescript: "Multi assets",
       remoteLocal: "Openness",
   },
+  "km-KH": {
+    lightweight: "Composable",
+    realtime: "Fast",
+    suspense: "Unstopable",
+    pagination: "Scalable",
+    backendAgnostic: "Borderless",
+    renderingStrategies: "Multichain",
+    typescript: "Multi assets",
+    remoteLocal: "Openness",
+},
   "es-ES": {},
   "zh-CN": {
     lightweight: "Lightweight",

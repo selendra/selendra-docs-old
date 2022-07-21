@@ -32,7 +32,6 @@ Once the Selendra's network usage increase, millions of accounts created, and re
 | Name, Precision | SEL, 12                                    |
 | SS58 Format     | 204                                        |
 | EVM chain id    | 204                                        |
-| SEL ERC20/SRC20 | 0x0000000000000000000000000.....           |
 | Block production| BABE                                       |
 | Finality        | GRANDPA                                    |
 | Block Time      | 6s                                         |

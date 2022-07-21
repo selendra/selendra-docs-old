@@ -1,15 +1,15 @@
 {
   "index": {
-    "title": "欢迎",
+    "title": "ស្វាគមន៍",
     "type": "page",
     "hidden": false
   },
   "docs": {
-    "title": "文件",
+    "title": "ឯកសារ",
     "type": "page"
   },
   "blog": {
-    "title": "博客",
+    "title": "Blog",
     "type": "page",
     "theme": {
       "sidebar": false

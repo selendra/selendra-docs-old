@@ -7,7 +7,7 @@ const withNextra = require("nextra")({
 
 module.exports = withNextra({
   i18n: {
-    locales: ["en-US", "zh-CN"],
+    locales: ["en-US", "km-KH", "zh-CN"],
     defaultLocale: "en-US",
   },
   redirects: () => {
@@ -18,28 +18,8 @@ module.exports = withNextra({
         statusCode: 301,
       },
       {
-        source: "/advanced/performance",
-        destination: "/docs/advanced/performance",
-        statusCode: 301,
-      },
-      {
-        source: "/advanced/cache",
-        destination: "/docs/advanced/cache",
-        statusCode: 301,
-      },
-      {
-        source: "/docs/cache",
-        destination: "/docs/advanced/cache",
-        statusCode: 301,
-      },
-      {
-        source: "/change-log",
-        destination: "/docs/change-log",
-        statusCode: 301,
-      },
-      {
-        source: "/blog",
-        destination: "/blog",
+        source: "/blog/selendra",
+        destination: "/blog/selendra",
         statusCode: 301,
       },
       {

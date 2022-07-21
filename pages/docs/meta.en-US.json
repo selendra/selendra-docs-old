@@ -1,8 +1,10 @@
 {
-  "getting-started": "Getting Started",
-  "tokenomics": "Tokenomics",
-  "use-cases": "Use cases",
-  "contribute": "Contribute",
-  "selendra-paper": "Whitepaper",
-  "validatorfaq": "Validator FAQ"
+  "getting-started" : "Getting Started",
+  "learn"           : "Learn",
+  "develop"         : "Build",
+  "maintain"        : "Maintain",
+  "contribute"      : "Contribute",
+  "papers"          : "Whitepapers",
+  "tools"           : "Tools", 
+  "faq"             : "FAQ"  
 }
