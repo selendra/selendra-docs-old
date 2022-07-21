@@ -128,7 +128,7 @@ export default {
         return (
           <center>
             <a
-              href="https://www.selendra.com/"
+              href="https://www.selendra.org/"
               target="_blank"
               rel="noopener"
               className="no-underline text-current"
@@ -141,7 +141,7 @@ export default {
         return (
           <center>
             <a
-              href="https://www.selendra.com/"
+              href="https://www.selendra.org/"
               target="_blank"
               rel="noopener"
               className="no-underline text-current"
@@ -155,7 +155,7 @@ export default {
         return (
           <center>
             <a
-              href="https://www.selendra.com/"
+              href="https://www.selendra.org/"
               target="_blank"
               rel="noopener"
               className="no-underline text-current"
