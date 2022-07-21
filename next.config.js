@@ -18,8 +18,8 @@ module.exports = withNextra({
         statusCode: 301,
       },
       {
-        source: "/blog/selendra",
-        destination: "/blog/selendra",
+        source: "/blog/selendra-docs",
+        destination: "/blog/selendra-docs",
         statusCode: 301,
       },
       {
