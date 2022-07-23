@@ -13,14 +13,14 @@ const Logo = ({ height }) => {
 
 const TITLE_WITH_TRANSLATIONS = {
   "en-US": "Multichain Interoperable nPoS Network",
-  "zh-CN": "多链互操作 nPoS 网络",
   "km-KH": "បណ្តាញ nPoS ដែលអាចធ្វើអន្តរកម្មបានច្រើនខ្សែ",
+  // "zh-CN": "多链互操作 nPoS 网络",
 };
 
 const FEEDBACK_LINK_WITH_TRANSLATIONS = {
   "en-US": "Question? Give us feedback →",
-  "zh-CN": "有疑问？给我们反馈 →",
-  "km-KH": "សំណួរ? ផ្តល់ឱ្យយើងនូវមតិកែលម្អ →"
+  "km-KH": "សំណួរ? ផ្តល់ឱ្យយើងនូវមតិកែលម្អ →",
+  // "zh-CN": "有疑问？给我们反馈 →"
 };
 
 export default {
@@ -116,8 +116,8 @@ export default {
     switch (locale) {
       case "km-KH":
         return "កែសម្រួលទំព័រនេះនៅលើ GitHub →";
-      case "zh-CN":
-        return "在 GitHub 上编辑本页 →";
+      // case "zh-CN":
+      //   return "在 GitHub 上编辑本页 →";
       default:
         return "Edit this page on GitHub →";
     }
@@ -137,20 +137,19 @@ export default {
             </a>
           </center>
         );
-      case "zh-CN":
-        return (
-          <center>
-            <a
-              href="https://www.selendra.org/"
-              target="_blank"
-              rel="noopener"
-              className="no-underline text-current"
-            >
-              <span className="mr-1">用 &#x2764; @Selendra.org</span>
-            </a>
-          </center>
-        );
-
+      // case "zh-CN":
+      //   return (
+      //     <center>
+      //       <a
+      //         href="https://www.selendra.org/"
+      //         target="_blank"
+      //         rel="noopener"
+      //         className="no-underline text-current"
+      //       >
+      //         <span className="mr-1">用 &#x2764; @Selendra.org</span>
+      //       </a>
+      //     </center>
+      //   );
       default:
         return (
           <center>
@@ -169,6 +168,6 @@ export default {
   i18n: [
     { locale: "en-US", text: "English" },
     { locale: "km-KH", text: "ភាសាខ្មែរ" },
-    { locale: "zh-CN", text: "简体中文" }
+    // { locale: "zh-CN", text: "简体中文" }
   ],
 };
